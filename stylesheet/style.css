@@ -6,9 +6,8 @@ header {
     background-color: #f0fff0;
 }
 
-.navbar-collapse {
-    position: absolute;
-    right: 0;
+#navbarNavAltMarkup {
+    justify-content: end;
 }
 
 .navbar-brand img {
@@ -18,6 +17,7 @@ header {
 .navbar-nav a {
     color: black !important;
     margin-right: 25px;
+    margin: auto !important;
 }
 
 .navbar-nav a:hover {
@@ -30,6 +30,10 @@ header {
     border-radius: 25px;
     background-image: linear-gradient(45deg, #21b573, #00d000);
     color: white;
+}
+
+.all-btn:hover {
+    background-image: linear-gradient(270deg, #21b573, #00d000);
 }
 
 .nav-btn {
@@ -278,7 +282,7 @@ footer p {
     }
 
     .testi-text-side p {
-        max-width: 85%;
+        width: 85%;
     }
 
     h1 {
@@ -328,6 +332,7 @@ footer p {
     .testi-text-side p {
         width: 100%;
         font-size: 15px;
+        text-align: center;
     }
 
     .testimonial {
