@@ -1,9 +1,9 @@
 header {
-    background: rgb(240, 255, 240);
+    background-color: #f0fff0;
 }
 
 .navbar {
-    background: rgb(240, 255, 240);
+    background-color: #f0fff0;
 }
 
 .navbar-collapse {
@@ -20,11 +20,15 @@ header {
     margin-right: 25px;
 }
 
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
 .all-btn {
     padding: 10px 30px;
     border: 0;
     border-radius: 25px;
-    background: #21b573;
+    background-image: linear-gradient(45deg, #21b573, #00d000);
     color: white;
 }
 
@@ -55,7 +59,7 @@ h1 {
 }
 
 .get-started {
-    height: 500px;
+    padding: 75px 15px 100px 15px;
 }
 
 .card-img-top {
@@ -127,6 +131,10 @@ h1 {
     height: auto;
     margin: 0;
     padding: 20px 20px 0 20px;
+}
+
+.course-btn {
+    padding: 7px 30px;
 }
 
 .card-footer div img {
