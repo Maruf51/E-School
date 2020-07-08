@@ -32,6 +32,10 @@ header {
     color: white;
 }
 
+.nav-btn {
+    padding: 8px 30px;
+}
+
 #button {
     margin: 0;
 }
@@ -96,6 +100,12 @@ h1 {
 .card {
     border: 0;
     border-radius: 10px;
+    transition: .3s;
+}
+
+.card:hover {
+    background: white;
+    box-shadow: -1px 10px 30px #ddd;
 }
 
 .box-shadow-card {
@@ -208,6 +218,84 @@ footer p {
     margin: 0;
     font-size: 12px;
     text-align: center;
+    padding-bottom: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    h1 {
+        font-size: 34px;
+    }
+
+    .get-started {
+        padding: 40px 15px 50px 15px;
+    }
+
+    .testi-text-side p {
+        width: 350px;
+    }
+
+    .testimonial {
+        margin-bottom: 60px;
+    }
+
+    .footer-link {
+        padding-left: 35px;
+    }
+
+    .footer {
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .testimonial-area {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:375px){
+    .get-started {
+        flex-direction: column;
+    }
+
+    .image-side img {
+        padding-top: 50px;
+    }
+
+    .testimonial-area {
+        flex-direction: column;
+    }
+
+    .man-image {
+        margin-left: 90px;
+        float: none;
+    }
+
+    .testi-text-side p {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-right-side {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        padding-top: 20px;
+    }
+}
 
